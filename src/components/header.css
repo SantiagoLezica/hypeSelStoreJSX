@@ -1,0 +1,28 @@
+
+header {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: blueviolet;
+
+}
+nav a{
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    
+}
+h1{
+    color: white;
+    margin-left: 5px;
+}
+.number{
+    margin-right: 5px;
+    background-color: red;
+    font-weight: 600px;
+    font-size: 15px;
+    border-radius: 30%;
+    padding: 2px;
+}
