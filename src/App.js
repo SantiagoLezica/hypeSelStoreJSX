@@ -1,11 +1,11 @@
-import Header from './components/header';
+import NavBar from './components/navBar';
 import {ItemListContainer} from './itemListContainer/itemListConteiner';
 
 
 function App() {
   return (
     <div>
-     <Header/>
+     <NavBar/>
      <ItemListContainer greeting="Tienda de Sneakers Online"/>  
     </div> 
   );

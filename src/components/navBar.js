@@ -1,8 +1,8 @@
-import './header.css'
-import {CartWidget} from './componentes.js'
+import './navBar.css'
+import {CartWidget} from './cartWidget.js'
 
 
-const Header = () => {
+const NavBar = () => {
     return (
         <header>
             <h1>HypeSel Store</h1>
@@ -10,10 +10,10 @@ const Header = () => {
                 <a href="#">Inicio</a>
                 <a href="#">Productos</a>
                 <a href="#">Contacto</a>
-                <a href="#"><span className='number'>7</span><CartWidget/></a>
+                <a href="#"><CartWidget/></a>
             </nav>
         </header>
     )
 }
 
-export default Header;
+export default NavBar;
